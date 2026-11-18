@@ -20,14 +20,14 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 /* Compléter la suite du code */
 .carousel__controls {
   display: flex;
-  gap: 16;
+  gap: 16px;
   align-items: center;
   justify-content: center;
   margin: 16px 0;
 }
 .carousel__button {
   width: 50px;
-  height: 5opx;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +48,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 }
 
 .carousel__item {
-  flex: 1 0 260px;
+  flex: 1 0 70px;
   scroll-snap-align: center;
 }
 
